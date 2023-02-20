@@ -1,0 +1,45 @@
+body {
+	background-image: url("texture.jpg");
+	background-size: cover;
+	background-color: #334455;
+	font-family: Arial, sans-serif;
+	color: #fff;
+}
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 3px solid #fff;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+table td {
+	border: 2px solid #fff;
+	padding: 10px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	width: 100px;
+	height: 100px;
+}
+
+table td:hover {
+	background-color: #fff;
+	color: #334455;
+	cursor: pointer;
+}
+
+#cell00, #cell11, #cell22 {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#cell02, #cell11, #cell20 {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#message {
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
